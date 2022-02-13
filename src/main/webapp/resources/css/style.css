@@ -1,0 +1,14 @@
+.container {
+    margin: 0 auto;
+    padding: 0;
+    min-width: 800px;
+}
+
+.meals {
+    text-align: left;
+}
+
+
+.meals th:not(:first-child), .meals td:not(:first-child) {
+    padding-left: 25px;
+}
